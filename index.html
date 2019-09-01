@@ -4,27 +4,569 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/main.css"/>
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grimiore</title>
+  <link rel="icon" type="image/png" href="img/icon.png" size="500x500"/>
+  <title>Grimoire - Home</title>
 </head>
 
 <body>
-  <h1>Theme Starter</h1>
+  <header class="main-header light-green darken-2">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="my-container">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center deep-orange-text text-darken-1" style="font-size: 55px">
+              <span>G</span>RIMOIRE
+            </a>
+            <a href="" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li>
+                    <a href="index.html" class="active-link">
+                      <i class="fas fa-home"></i>
+                      HOME
+                    </a>
+                  </li>
+              <li>
+                <a class="dropdown-button" data-activates="books">
+                  <i class="fas fa-book"></i>
+                  BOOKS
+                  <i class="material-icons right">arrow_drop_down</i>
+                </a>
+              </li>
+              <li>
+                  <a class="dropdown-button" data-activates="authors">
+                  <i class="fas fa-users"></i>
+                  AUTHORS
+                  <i class="material-icons right">arrow_drop_down</i>
+                </a>
+              </li>
+              <li>
+                  <a class="dropdown-button" data-activates="genres">
+                  GENRES
+                  <i class="material-icons right">arrow_drop_down</i>
+                </a>
+              </li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="" class="btn deep-orange darken-1 z-depth-0 waves-effect waves-light">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section New Releases -->
+  <section class="section section-new scrollspy" id="new-releases">
+    <div class="my-container">
+      <h3 class="center section-title">-New Releases-</h3>
+      <div class="row">
+        <div class="col s6 m4 l2">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img class="responsive-img" src="img/books/Pittacus Lore/LL/6thefateoften.jpg">
+              <a href="#ll6" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+            </div>
+            <div class="card-content center">
+              <p class="book-title"><b>The Fate of Ten</b></p>
+              <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m4 l2">
+            <div class="card z-depth-3">
+              <div class="card-image">
+                <img class="responsive-img" src="img/books/Pittacus Lore/LL/7unitedasone.jpg">
+                <a href="#ll7" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+              </div>
+              <div class="card-content center">
+                <p class="book-title"><b>United as One</b></p>
+                <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+              </div>
+            </div>
+          </div>
+
+        <div class="col s6 m4 l2">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img class="responsive-img" src="img/books/Brigid Kemmerer/4secret.jpg">
+              <a href="#4secret" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+            </div>
+            <div class="card-content center">
+              <p class="book-title"><b>Secret</b></p>
+              <i>by </i><span class="deep-orange-text text-darken-1">Brigid Kemmerer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m4 l2">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img class="responsive-img" src="img/books/Brigid Kemmerer/5sacrifice.jpg">
+              <a href="#5sac" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+            </div>
+            <div class="card-content center">
+              <p class="book-title"><b>Sacrifice</b></p>
+              <i>by </i><span class="deep-orange-text text-darken-1">Brigid Kemmerer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m4 l2">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img class="responsive-img" src="img/books/Orson Scott Card/1endersgame.jpg">
+              <a href="#1end" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+            </div>
+            <div class="card-content center">
+              <p class="book-title"><b>Ender's Game</b></p>
+              <i>by </i><span class="deep-orange-text text-darken-1">Orson Scott Card</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m4 l2">
+          <div class="card z-depth-3">
+            <div class="card-image">
+              <img class="responsive-img" src="img/books/Pittacus Lore/LLR/2fugitivesix.jpg">
+              <a href="#2fug6" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+            </div>
+            <div class="card-content center">
+              <p class="book-title"><b>Fugitive Six</b></p>
+              <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Section Coming Soon -->
+  <section class="section section-soon scrollspy" id="soon">
+      <div class="my-container">
+          <h3 class="center section-title">-Coming Soon-</h3>
+          <div class="row">
+            <div class="col s6 m4 l2">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="responsive-img" src="img/books/Pittacus Lore/LLR/1generationone.jpg">
+                  <a href="#1gen" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+                </div>
+                <div class="card-content center">
+                  <p class="book-title"><b>Generation One</b></p>
+                  <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col s6 m4 l2">
+                <div class="card z-depth-3">
+                  <div class="card-image">
+                    <img class="responsive-img" src="img/books/Pittacus Lore/LL/5therevengeofseven.jpg">
+                    <a href="#ll5" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+                  </div>
+                  <div class="card-content center">
+                    <p class="book-title"><b>The Revenge of Seven</b></p>
+                    <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+                  </div>
+                </div>
+              </div>
+    
+            <div class="col s6 m4 l2">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="responsive-img" src="img/books/Brigid Kemmerer/3spirit.jpg">
+                  <a href="#3spirit" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+                </div>
+                <div class="card-content center">
+                  <p class="book-title"><b>Spirit</b></p>
+                  <i>by </i><span class="deep-orange-text text-darken-1">Brigid Kemmerer</span>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col s6 m4 l2">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="responsive-img" src="img/books/Pittacus Lore/LL/4thefalloffive.jpg">
+                  <a href="#ll4" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+                </div>
+                <div class="card-content center">
+                  <p class="book-title"><b>The Fall of Five</b></p>
+                  <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col s6 m4 l2">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="responsive-img" src="img/books/Brigid Kemmerer/2spark.jpg">
+                  <a href="#2spark" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+                </div>
+                <div class="card-content center">
+                  <p class="book-title"><b>Spark</b></p>
+                  <i>by </i><span class="deep-orange-text text-darken-1">Brigid Kemmerer</span>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col s6 m4 l2">
+              <div class="card z-depth-3">
+                <div class="card-image">
+                  <img class="responsive-img" src="img/books/Pittacus Lore/LL/3theriseofnine.jpg">
+                  <a href="#ll3" class="btn-floating halfway-fab waves-effect waves-light deep-orange darken-2 modal-trigger"><i class="material-icons">more_vert</i></a>
+                </div>
+                <div class="card-content center">
+                  <p class="book-title"><b>The Rise of Nine</b></p>
+                  <i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <!-- Dropdown Contents -->
+  <!-- Books Dropdown -->
+  <div class="dropdown-content" id="books">
+      <div>
+        <ul>
+          <li>
+            <a href="#new-releases">New Releases</a>
+          </li>
+          <li>
+            <a href="#soon">Coming Soon</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown-content" id="authors">
+        <div>
+          <ul>
+            <li>
+              <a href="">Brigid Kemmerer</a>
+            </li>
+            <li>
+              <a href="">Orson Scott Card</a>
+            </li>
+            <li>
+              <a href="">Pittacus Lore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="dropdown-content" id="genres">
+        <div>
+          <ul>
+            <li>
+              <a href="">Fantasy</a>
+            </li>
+            <li>
+              <a href="">Paranormal</a>
+            </li>
+            <li>
+              <a href="">Romance</a>
+            </li>
+            <li>
+              <a href="">Science Fiction</a>
+            </li>
+            <li>
+              <a href="">Young Adult</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    <!-- Modal Contents -->
+    <!-- LL6 -->
+    <div id="ll6" class="modal">
+      <div class="modal-content">
+        <div class="card horizontal z-depth-0">
+          <div class="card-image">
+            <img class="responsive-img" src="img/books/Pittacus Lore/LL/6thefateoften.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <a class="modal-close"><i class="material-icons grey-text" id="close">close</i></a>
+              <h4>The Fate of Ten</h4>
+              <h5><i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span></h5>
+              <i class="material-icons small-1 green-text text-darken-2 prefix">star star star star star_half</i>
+              <span style="vertical-align: 5px">4.32</span>
+              <h5 style="font-weight: bold">Php1,000.00</h5>
+              <ul class="tabs">
+                <li class="tab"><a href="#ll6about" class="active">About</a></li>
+                <li class="tab"><a href="#ll6bdets">Book Details</a></li>
+              </ul>
+              <div id="ll6about">
+                <br>
+                <p>The sixth book in the thrilling, action-packed, New York Times bestselling I Am Number Four series! For years the Garde have fought the Mogadorians in secret. Now all of that has changed. The invasion has begun. If the Garde can't find a way to stop the Mogs, humanity will suffer the same fate as the Lorien: annihilation.</p>
+                <br>
+                <p>There is still hope. When the Elders sent the Garde to Earth, they had a plan—one which the Garde are finally starting to understand. In the climax of The Revenge of Seven, a group of the Garde traveled to an ancient pyramid in Mexico known to their people as the Sanctuary. There they awoke a power that had been hidden within our planet for generations. Now this power can save the world . . . or destroy it. It will all depend on who wields it.</p>
+              </div>
+              <div id="ll6bdets">
+                <br>
+                <b>ISBN: </b>XXXXXXXXXXXXX<br>
+                <b>ISBN 10: </b>XXXXXXXXXX<br>
+                <b>Imprint: </b>HarperCollins<br>
+                <b>Trimsize: </b>5.5 in (w) x 8.25 in (h)<br>
+                <b>Pages: </b>416<br>
+                <b>Age: </b>14+<br>
+                <b>Genre: </b>Younng Adult / Fantasy / Science Fiction 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LL7 -->
+    <div id="ll7" class="modal">
+        <div class="modal-content">
+          <div class="card horizontal z-depth-0">
+            <div class="card-image">
+              <img class="responsive-img" src="img/books/Pittacus Lore/LL/7unitedasone.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <a class="modal-close"><i class="material-icons grey-text" id="close">close</i></a>
+                <h4>United as One</h4>
+                <h5><i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span></h5>
+                <i class="material-icons small-1 green-text text-darken-2 prefix">star star star star star_half</i>
+                <span style="vertical-align: 5px">4.59</span>
+                <h5 style="font-weight: bold">Php1,500.00</h5>
+                <ul class="tabs">
+                  <li class="tab"><a href="#ll7about" class="active">About</a></li>
+                  <li class="tab"><a href="#ll7bdets">Book Details</a></li>
+                </ul>
+                <div id="ll7about">
+                  <br>
+                  <p>The seventh and final book in the #1 New York Times bestselling I Am Number Four series! With United as One, this action-packed series comes to a surprising, breathtaking, and utterly satisfying conclusion. The Garde didn’t start this war, but they’ll do whatever it takes to end it once and for all. . . .</p>
+                  <br>
+                  <p>The Mogadorians have invaded Earth. Their warships loom over our most populated cities, and no country will risk taking them head on. The Garde are all that stand in the way, but they’ll need an army of their own to win this fight.</p>
+                  <br>
+                  <p>They’ve teamed up with the US military, but it might not be enough. The Garde need reinforcements, and they’ve found them in the most unexpected place. Teenagers from across the globe, like John Smith’s best friend, Sam, have developed abilities. So John and the others must get to them before the Mogs, because if they don’t their enemies will use these gifted teens for their own sinister plan.</p>
+                  <br>
+                  <p>But after all the Mogadorians have taken from John—his home, his family, his friends, and the person he loves most—he might not want to put any more lives in danger. He’s got nothing left to lose, and he’s just discovered he has been given an incredible new Legacy. Now he can turn himself into the ultimate weapon. So will he risk his life to save the world, or will he realize that power in numbers will save us all?</p>
+                </div>
+                <div id="ll7bdets">
+                  <br>
+                  <b>ISBN: </b>XXXXXXXXXXXXX<br>
+                  <b>ISBN 10: </b>XXXXXXXXXX<br>
+                  <b>Imprint: </b>HarperCollins<br>
+                  <b>Trimsize: </b>5.5 in (w) x 8.25 in (h)<br>
+                  <b>Pages: </b>480<br>
+                  <b>Age: </b>14+<br>
+                  <b>Genre: </b>Younng Adult / Fantasy / Science Fiction 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Secret -->
+    <div id="4secret" class="modal">
+      <div class="modal-content">
+        <div class="card horizontal z-depth-0">
+          <div class="card-image">
+            <img class="responsive-img" src="img/books/Brigid Kemmerer/4secret.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <a class="modal-close"><i class="material-icons grey-text" id="close">close</i></a>
+              <h4>Secret</h4>
+              <h5><i>by </i><span class="deep-orange-text text-darken-1">Brigid Kemmerer</span></h5>
+              <i class="material-icons small-1 green-text text-darken-2 prefix">star star star star star_half</i>
+              <span style="vertical-align: 5px">4.21</span>
+              <h5 style="font-weight: bold">Php1,300.00</h5>
+              <ul class="tabs">
+                <li class="tab"><a href="#4secretabout" class="active">About</a></li>
+                <li class="tab"><a href="#4secretbdets">Book Details</a></li>
+              </ul>
+              <div id="4secretabout">
+                <br>
+                <p>EARTH. FIRE. AIR. WATER.</p>
+                <br>
+                <p>Nick Merrick is stretched to breaking point. He's trying to keep his grades sky-high or he won't get in to college. He's trying to keep his brother's business afloat or the Merricks will be out on the street. He's trying to keep the secret of where he's going in the evenings from his twin brother Gabriel - or he fears he'll lose his family. And he's trying to keep his mind off the hot, self-assured dancer who is his 'girlfriend's' partner.</p>
+                <br>
+                <p>And then Quinn takes to hanging around his sworn enemy, and an Elemental Guide is counting the hours until he can try again to kill the Merrick brothers. Storms are brewing. On all sides.</p>
+                <br>
+                <p>SECRETS IN THE WIND. DANGER IN THE AIR.</p>
+              </div>
+              <div id="4secretbdets">
+                <br>
+                <b>ISBN: </b>XXXXXXXXXXXXX<br>
+                <b>ISBN 10: </b>XXXXXXXXXX<br>
+                <b>Imprint: </b>Paperback<br>
+                <b>Trimsize: </b>5.5 in (w) x 8.25 in (h)<br>
+                <b>Pages: </b>328<br>
+                <b>Age: </b>14+<br>
+                <b>Genre: </b>Younng Adult / Fantasy / Paranormal / Science Fiction 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sacrifice -->
+    <div id="5sac" class="modal">
+      <div class="modal-content">
+        <div class="card horizontal z-depth-0">
+          <div class="card-image">
+            <img class="responsive-img" src="img/books/Brigid Kemmerer/5sacrifice.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <a class="modal-close"><i class="material-icons grey-text" id="close">close</i></a>
+              <h4>Sacrifice</h4>
+              <h5><i>by </i><span class="deep-orange-text text-darken-1">Brigid Kemmerer</span></h5>
+              <i class="material-icons small-1 green-text text-darken-2 prefix">star star star star star_half</i>
+              <span style="vertical-align: 5px">4.09</span>
+              <h5 style="font-weight: bold">Php1,400.00</h5>
+              <ul class="tabs">
+                <li class="tab"><a href="#5sacabout" class="active">About</a></li>
+                <li class="tab"><a href="#5sacbdets">Book Details</a></li>
+              </ul>
+              <div id="5sacabout">
+                <br>
+                <p>EARTH. FIRE. AIR. WATER.</p>
+                <br>
+                <p>NOne misstep and they lose it all. For the last time.</p>
+                <br>
+                <p>Michael Merrick understands pressure. He's the only parent his three brothers have had for years. His power to control Earth could kill someone if he miscalculates. Now an Elemental Guide has it in for his family, and he's all that stands in the way.</p>
+                <br>
+                <p>His girlfriend, Hannah, understands pressure too. She's got a child of her own, and a job as a firefighter that could put her life in danger at any moment.</p>
+                <br>
+                <p>But there are people who have had enough of Michael's defiance, his family's 'bad luck'. Before he knows it, Michael's enemies have turned into the Merricks' enemies, and they're armed for war.</p>
+                <br>
+                <p>They're not interested in surrender. But Michael isn't the white flag type anyway. Everything is set for the final showdown.</p>
+                <br>
+                <p>Four elements, one family. Will they hold together, or be torn apart?</p>
+              </div>
+              <div id="5sacbdets">
+                <br>
+                <b>ISBN: </b>XXXXXXXXXXXXX<br>
+                <b>ISBN 10: </b>XXXXXXXXXX<br>
+                <b>Imprint: </b>Paperback<br>
+                <b>Trimsize: </b>5.5 in (w) x 8.25 in (h)<br>
+                <b>Pages: </b>324<br>
+                <b>Age: </b>14+<br>
+                <b>Genre: </b>Younng Adult / Fantasy / Paranormal / Science Fiction / Romance
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ender's Game -->
+    <div id="1end" class="modal">
+      <div class="modal-content">
+        <div class="card horizontal z-depth-0">
+          <div class="card-image">
+            <img class="responsive-img" src="img/books/Orson Scott Card/1endersgame.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <a class="modal-close"><i class="material-icons grey-text" id="close">close</i></a>
+              <h4>Ender's Game</h4>
+              <h5><i>by </i><span class="deep-orange-text text-darken-1">Orson Scott Card</span></h5>
+              <i class="material-icons small-1 green-text text-darken-2 prefix">star star star star star_half</i>
+              <span style="vertical-align: 5px">4.30</span>
+              <h5 style="font-weight: bold">Php1,100.00</h5>
+              <ul class="tabs">
+                <li class="tab"><a href="#1endabout" class="active">About</a></li>
+                <li class="tab"><a href="#1endbdets">Book Details</a></li>
+              </ul>
+              <div id="1endabout">
+                <br>
+                <p>Andrew "Ender" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast.</p>
+                <br>
+                <p>But Ender is not the only result of the experiment. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway almost as long. Ender's two older siblings, Peter and Valentine, are every bit as unusual as he is, but in very different ways. While Peter was too uncontrollably violent, Valentine very nearly lacks the capability for violence altogether. Neither was found suitable for the military's purpose. But they are driven by their jealousy of Ender, and by their inbred drive for power. Peter seeks to control the political process, to become a ruler. Valentine's abilities turn more toward the subtle control of the beliefs of commoner and elite alike, through powerfully convincing essays. Hiding their youth and identities behind the anonymity of the computer networks, these two begin working together to shape the destiny of Earth-an Earth that has no future at all if their brother Ender fails.</p>
+              </div>
+              <div id="1endbdets">
+                <br>
+                <b>ISBN: </b>XXXXXXXXXXXXX<br>
+                <b>ISBN 10: </b>XXXXXXXXXX<br>
+                <b>Imprint: </b>Mass Market Paperback<br>
+                <b>Trimsize: </b>5.5 in (w) x 8.25 in (h)<br>
+                <b>Pages: </b>324<br>
+                <b>Age: </b>13+<br>
+                <b>Genre: </b>Younng Adult / Fantasy / Science Fiction
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fugitive Six -->
+    <div id="2fug6" class="modal">
+      <div class="modal-content">
+        <div class="card horizontal z-depth-0">
+          <div class="card-image">
+            <img class="responsive-img" src="img/books/Pittacus Lore/LLR/2fugitivesix.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <a class="modal-close"><i class="material-icons grey-text" id="close">close</i></a>
+              <h4>Fugitive Six</h4>
+              <h5><i>by </i><span class="deep-orange-text text-darken-1">Pittacus Lore</span></h5>
+              <i class="material-icons small-1 green-text text-darken-2 prefix">star star star star star_half</i>
+              <span style="vertical-align: 5px">4.31</span>
+              <h5 style="font-weight: bold">Php1,800.00</h5>
+              <ul class="tabs">
+                <li class="tab"><a href="#2fug6about" class="active">About</a></li>
+                <li class="tab"><a href="#2fugbdets">Book Details</a></li>
+              </ul>
+              <div id="2fug6about">
+                <br>
+                <p>Andrew "Ender" Wiggin thinks he is playing computer simulated war games; he is, in fact, engaged in something far more desperate. The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life. The only way to find out is to throw Ender into ever harsher training, to chip away and find the diamond inside, or destroy him utterly. Ender Wiggin is six years old when it begins. He will grow up fast.</p>
+                <br>
+                <p>But Ender is not the only result of the experiment. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway almost as long. Ender's two older siblings, Peter and Valentine, are every bit as unusual as he is, but in very different ways. While Peter was too uncontrollably violent, Valentine very nearly lacks the capability for violence altogether. Neither was found suitable for the military's purpose. But they are driven by their jealousy of Ender, and by their inbred drive for power. Peter seeks to control the political process, to become a ruler. Valentine's abilities turn more toward the subtle control of the beliefs of commoner and elite alike, through powerfully convincing essays. Hiding their youth and identities behind the anonymity of the computer networks, these two begin working together to shape the destiny of Earth-an Earth that has no future at all if their brother Ender fails.</p>
+              </div>
+              <div id="2fug6bdets">
+                <br>
+                <b>ISBN: </b>XXXXXXXXXXXXX<br>
+                <b>ISBN 10: </b>XXXXXXXXXX<br>
+                <b>Imprint: </b>Mass Market Paperback<br>
+                <b>Trimsize: </b>5.5 in (w) x 8.25 in (h)<br>
+                <b>Pages: </b>324<br>
+                <b>Age: </b>13+<br>
+                <b>Genre: </b>Younng Adult / Fantasy / Science Fiction
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Custom JS & jQuery here
-      
-    });
-  </script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

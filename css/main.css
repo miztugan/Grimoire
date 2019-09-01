@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Pamela";
+    src: url(../fonts/pamela/Pamela.ttf);
+}
+
+@font-face {
+    font-family: "Isle";
+    src: url(../fonts/isle/IsleHeadMe.ttf);
+}
+
+@font-face {
+    font-family: "Isle";
+    src: url(../fonts/isle/IsleHeadLi.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Isle";
+    src: url(../fonts/isle/IsleHeadBo.ttf);
+    font-weight: bold;
+}
+
+.active-link {
+    color: #f4511e;
+    font-weight: bold;
+}
+
+.book-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.brand-logo {
+    font-family: Pamela;
+}
+
+.card {
+    height: auto;
+}
+
+.card-content #close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.main-header {
+    background: url(../img/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.modal {
+    min-height: 490px;
+    width: 900px;
+}
+
+.modal-content {
+    padding: 5px 5px 5px 5px !important;
+}
+
+.my-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-new {
+    background-color: #cddc39;
+}
+
+.section-soon {
+    background-color: #4caf50;
+}
+
+.section-title {
+    font-family: "Isle";
+    color: #f4511e;
+}
+
+#close:hover {
+    color: red !important;
+}
+
+nav {
+    background-color: rgba(76, 175, 80, 0.5) ;
+}
+
+nav ul li a {
+    font-family: "Isle";
+    font-weight: normal;
+    /* color: #1b5e20; */
+}
